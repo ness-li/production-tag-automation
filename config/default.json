@@ -1,0 +1,9 @@
+{
+    "Jira": {
+        "auth": {
+            "host": "INPUT_YOUR_HOST",
+            "username": "INPUT_YOUR_USERNAME",
+            "password": "INPUT_YOUR_PASSWORD"
+        }
+    }
+}
