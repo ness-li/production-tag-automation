@@ -1,4 +1,4 @@
-import { JiraService } from '../../src/services/jira-service';
+import { JiraService } from '../../../src/services/jira-service';
 import config from 'config';
 
 const jira = new JiraService({
@@ -43,7 +43,6 @@ test('should be able to get the status of an issue', async () => {
 
 test('should be able to transit an issue', async () => {
     const response = await jira.listTransitions('SEA-1');
-    console.log()
     const { transitions } = response;
     await jira.transitionIssue('SEA-1', {
         transition: {

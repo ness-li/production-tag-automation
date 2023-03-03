@@ -5,5 +5,11 @@
             "username": "INPUT_YOUR_USERNAME",
             "password": "INPUT_YOUR_PASSWORD"
         }
+    },
+    "IPM": {
+        "host": "http://localhost:3015",
+        "ipmVersion": "3.15.5",
+        "environment": "development",
+        "token": "4eoilc99-7184-43c8-ae46-3f8d8381867c"
     }
 }
